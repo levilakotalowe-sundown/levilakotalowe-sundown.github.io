@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://levilakotalowe-sundown.github.io/sitemap.xml

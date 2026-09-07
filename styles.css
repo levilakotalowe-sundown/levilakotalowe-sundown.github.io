@@ -484,3 +484,8 @@ main { padding-bottom: 5rem; }
   body { background: #fff; color: #000; font-size: 11pt; }
   a { color: #000; }
 }
+
+
+/* status pills (research pipeline) */
+.status { display:inline-block; font-family:var(--sans); font-size:0.66rem; font-weight:700; letter-spacing:0.09em; text-transform:uppercase; color:var(--accent); background:var(--accent-tint); padding:0.18rem 0.5rem; border-radius:100px; margin-right:0.55rem; vertical-align:0.1em; }
+.status--muted { color:var(--muted); background:var(--paper-3); }
