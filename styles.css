@@ -489,3 +489,13 @@ main { padding-bottom: 5rem; }
 /* status pills (research pipeline) */
 .status { display:inline-block; font-family:var(--sans); font-size:0.66rem; font-weight:700; letter-spacing:0.09em; text-transform:uppercase; color:var(--accent); background:var(--accent-tint); padding:0.18rem 0.5rem; border-radius:100px; margin-right:0.55rem; vertical-align:0.1em; }
 .status--muted { color:var(--muted); background:var(--paper-3); }
+
+
+/* course syllabus links */
+.card__link { display:inline-block; margin-top:0.9rem; font-family:var(--sans); font-size:0.8rem; font-weight:600; letter-spacing:0.01em; color:var(--accent); }
+.card__link:hover { color:var(--accent-deep); text-decoration:underline; }
+.card__link::after { content:" \2197"; }
+
+/* job-market status */
+.jobmarket { display:inline-flex; align-items:center; gap:0.55rem; font-family:var(--sans); font-size:0.82rem; font-weight:600; letter-spacing:0.01em; color:var(--ink-soft); background:var(--accent-tint); border-radius:100px; padding:0.42rem 0.95rem; margin:0.4rem 0 0; }
+.jobmarket__dot { width:8px; height:8px; border-radius:50%; background:var(--accent); flex:none; }
