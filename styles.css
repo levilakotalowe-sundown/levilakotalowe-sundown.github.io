@@ -95,9 +95,10 @@ h1, h2, h3, h4 {
   letter-spacing: -0.012em;
   color: var(--ink);
   margin: 0 0 0.5em;
+  text-wrap: balance;
 }
 
-p { margin: 0 0 1.1em; }
+p { margin: 0 0 1.1em; text-wrap: pretty; }
 
 hr {
   border: 0;
@@ -499,3 +500,8 @@ main { padding-bottom: 5rem; }
 /* job-market status */
 .jobmarket { display:inline-flex; align-items:center; gap:0.55rem; font-family:var(--sans); font-size:0.82rem; font-weight:600; letter-spacing:0.01em; color:var(--ink-soft); background:var(--accent-tint); border-radius:100px; padding:0.42rem 0.95rem; margin:0.4rem 0 0; }
 .jobmarket__dot { width:8px; height:8px; border-radius:50%; background:var(--accent); flex:none; }
+
+
+/* refined typographic detail (validated design pass) */
+.prose, .lede, .hero__intro, .feature__abstract, .quote, .cv-row__title { font-variant-numeric: oldstyle-nums; }
+.quote { hanging-punctuation: first last; }
