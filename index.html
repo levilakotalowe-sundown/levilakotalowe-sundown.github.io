@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>(function(){try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
   <title>Levi Lowe — Philosopher</title>
   <meta name="description" content="Levi Lowe is a Ph.D. candidate in philosophy at the University of Utah, working in philosophy of science, bioethics, and the philosophy of psychiatry. His dissertation is focused squarely on addiction: what it is, what it is not, and why those clarifications matter for psychiatry.">
   <meta name="author" content="Levi Lowe">
@@ -85,11 +86,10 @@
             considered moments where someone would say, <em>Your brain is not supposed to work like
             that</em>, and I try to make sense of it. Sometimes I agree. Much of the time, as you
             will come to read, I do not.</p>
-          <p class="jobmarket"><span class="jobmarket__dot" aria-hidden="true"></span>On the academic job market — seeking positions for the 2027–28 year.</p>
+          <p class="jobmarket"><span class="jobmarket__dot" aria-hidden="true"></span>On the academic job market — defending February 2027, seeking positions beginning Fall 2027.</p>
 
           <ul class="chips" aria-label="Areas of specialization">
             <li class="chip chip--accent">Philosophy of Science</li>
-            <li class="chip chip--accent">Bioethics</li>
             <li class="chip chip--accent">Philosophy of Psychiatry</li>
           </ul>
 
@@ -122,7 +122,7 @@
               problems in how dependence is characterized both socially and clinically.</p>
             <p style="font-family:var(--sans); font-size:0.82rem; letter-spacing:0.02em; color:var(--muted); margin-bottom:0;">
               <strong style="color:var(--ink-soft); font-weight:600;">Areas of competence:</strong>
-              Philosophy of Mind · Game Theory</p>
+              Bioethics · Philosophy of Mind · Game Theory</p>
           </div>
 
           <div class="feature" style="max-width:34rem;">
@@ -218,10 +218,6 @@
   <script>
     (function () {
       var root = document.documentElement;
-      try {
-        var saved = localStorage.getItem("theme");
-        if (saved) root.setAttribute("data-theme", saved);
-      } catch (e) {}
       var btn = document.querySelector(".theme-toggle");
       if (btn) btn.addEventListener("click", function () {
         var isDark = root.getAttribute("data-theme") === "dark"

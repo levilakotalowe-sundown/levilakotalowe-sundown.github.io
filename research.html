@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>(function(){try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}})();</script>
   <title>Research — Levi Lowe</title>
   <meta name="description" content="Levi Lowe's research in philosophy of science, bioethics, and the philosophy of psychiatry. His dissertation is focused squarely on addiction: what it is, what it is not, and why those clarifications matter for psychiatry.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='6'%20fill='%239A3B2E'/%3E%3Ctext%20x='16'%20y='22'%20font-family='Georgia,serif'%20font-size='15'%20font-weight='600'%20fill='%23FAF7F0'%20text-anchor='middle'%3ELL%3C/text%3E%3C/svg%3E">
@@ -125,6 +126,7 @@
           <div class="chapter">
             <span class="chapter__num">Chapter I</span>
             <h3>Dependence Theory: Distinguishing Dependence from Pathological Use</h3>
+            <p class="chapter__synopsis">Dependence and addiction are more like antonyms than synonyms.</p>
             <p class="chapter__meta"><span class="status">Draft&nbsp;available</span><a class="card__link" href="assets/Levi-Lowe-Dissertation-Chapter-1-Dependence-Theory.pdf" target="_blank" rel="noopener">Read the draft (PDF)</a></p>
             <p>Addiction is often associated with the term "dependence." In what follows, I explain that
               this association is a conflation that has caused serious problems, even contradictions,
@@ -144,6 +146,7 @@
           <div class="chapter">
             <span class="chapter__num">Chapter II</span>
             <h3>The Addiction Game: Prevention and Unstable Preferences</h3>
+            <p class="chapter__synopsis">Addicts suffer from irrational desires, not irrational decisions.</p>
             <p class="chapter__meta"><span class="status">Draft&nbsp;available</span><a class="card__link" href="assets/Levi-Lowe-Writing-Sample-The-Addiction-Game.pdf" target="_blank" rel="noopener">Read the paper (PDF)</a><span style="color:var(--muted);">Writing sample, above.</span></p>
             <p>While Becker and Murphy (1988) do model addiction as a rational process, they also model
               addiction as a deterministic and cumulative process, where the agent maintains stable
@@ -159,6 +162,7 @@
           <div class="chapter">
             <span class="chapter__num">Chapter III</span>
             <h3>Addiction Is Not Adaptive Preference: A Feminist View on a Psychiatric Puzzle</h3>
+            <p class="chapter__synopsis">Adaptive preferences are successful dependencies.</p>
             <p class="chapter__meta"><span class="status status--muted">In&nbsp;progress</span><a class="card__link" href="assets/Levi-Lowe-Dissertation-Chapter-3-Addiction-Is-Not-Adaptive-Preference.pdf" target="_blank" rel="noopener">Read the current draft (PDF)</a></p>
             <p>Imagine a person and call him Marty. Marty claims to successfully depend on alcohol. That
               is, he has a goal, uses alcohol to successfully achieve it, and accepts all the
@@ -172,17 +176,19 @@
           </div>
         </div>
 
-        <p style="font-family:var(--sans); font-size:0.85rem; color:var(--muted); margin:1rem 0 0;">Full drafts available on request.</p>
-
         <dl class="deflist" style="margin-top:2rem;">
           <dt>Institution</dt>
           <dd>University of Utah — Ph.D. candidate (ABD), Philosophy</dd>
+          <dt>Chair</dt>
+          <dd>Natalia Washington</dd>
           <dt>Committee</dt>
-          <dd>Natalia Washington · Christopher Thi Nguyen · Joyce Havstad · Chrisoula Andreou · Chandra Sripada</dd>
+          <dd>Christopher Thi Nguyen · Joyce Havstad · Chrisoula Andreou · Chandra Sripada</dd>
+          <dt>Expected defense</dt>
+          <dd>February 2027</dd>
           <dt>Fellowship</dt>
           <dd>Program in Psychiatry Ethics (PiPE) Graduate Research Fellowship — Huntsman Mental Health Institute, University of Utah (2026–27)</dd>
           <dt>Areas</dt>
-          <dd>Philosophy of Science · Bioethics · Philosophy of Psychiatry <span style="color:var(--muted);">(competence: Philosophy of Mind · Game Theory)</span></dd>
+          <dd>Philosophy of Science · Philosophy of Psychiatry <span style="color:var(--muted);">(competence: Bioethics · Philosophy of Mind · Game Theory)</span></dd>
         </dl>
       </div>
     </section>
@@ -195,6 +201,7 @@
           <div class="chapter">
             <span class="chapter__num">Paper</span>
             <h3>What Makes Something Addictive?</h3>
+            <p class="chapter__synopsis">Addiction broadens beyond drugs, but it is bounded by patient-relativity.</p>
             <p class="chapter__meta"><span class="status status--muted">Partly&nbsp;drafted</span></p>
             <p>The main psychiatric reason that drugs became the defining example of addiction is
               known as the dopamine theory of addiction. However, since this theory's wider adoption,
@@ -303,7 +310,6 @@
   <script>
     (function () {
       var root = document.documentElement;
-      try { var saved = localStorage.getItem("theme"); if (saved) root.setAttribute("data-theme", saved); } catch (e) {}
       var btn = document.querySelector(".theme-toggle");
       if (btn) btn.addEventListener("click", function () {
         var isDark = root.getAttribute("data-theme") === "dark"

@@ -529,5 +529,16 @@ main { padding-bottom: 5rem; }
 .chapter:first-child { margin-top: 0.4rem; }
 .chapter__num { display: block; font-family: var(--sans); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.3rem; }
 .prose .chapter h3 { margin-top: 0; }
+.chapter__synopsis {
+  font-style: italic;
+  font-size: 1.06em;
+  line-height: 1.45;
+  color: var(--ink);
+  border-left: 2px solid var(--accent);
+  padding-left: 0.85rem;
+  margin: 0.6rem 0 0;
+  text-wrap: balance;
+}
+.prose .chapter__synopsis { margin-bottom: 0; }
 .chapter__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; margin: 0.55rem 0 0.9rem; font-family: var(--sans); font-size: 0.85rem; }
 .chapter__meta .card__link { margin-top: 0; }
