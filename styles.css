@@ -505,3 +505,29 @@ main { padding-bottom: 5rem; }
 /* refined typographic detail (validated design pass) */
 .prose, .lede, .hero__intro, .feature__abstract, .quote, .cv-row__title { font-variant-numeric: oldstyle-nums; }
 .quote { hanging-punctuation: first last; }
+
+/* teaching: discussion roles */
+.roles { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.7rem; margin: 1.4rem 0 1.8rem; padding: 0; list-style: none; }
+.role { padding: 0.8rem 0.95rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); }
+.role__name { display: block; font-family: var(--sans); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.role__job { display: block; font-size: 0.98rem; line-height: 1.45; color: var(--ink-soft); margin-top: 0.25rem; }
+
+/* teaching: quote that corroborates a commitment */
+.quote--inline { font-size: 1.04rem; line-height: 1.5; margin: 1.1rem 0 0.4rem; padding-left: 1.2rem; }
+.quote--inline cite { margin-top: 0.4rem; }
+
+/* teaching: evaluation stat row */
+.stats--evals { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); margin-top: 0.4rem; }
+.stats__caption { font-family: var(--sans); font-size: 0.82rem; color: var(--muted); max-width: 60ch; margin: 0.2rem 0 0; line-height: 1.5; }
+.obs { display: grid; grid-template-columns: minmax(0, 1fr) 15rem; gap: 1.5rem 2.5rem; align-items: start; }
+.obs .stat { padding-top: 0.6rem; }
+.obs .stat__label { max-width: 15rem; }
+@media (max-width: 720px) { .obs { grid-template-columns: 1fr; } }
+
+/* research: dissertation chapters as prose blocks */
+.chapter { margin-top: 2.6rem; }
+.chapter:first-child { margin-top: 0.4rem; }
+.chapter__num { display: block; font-family: var(--sans); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.3rem; }
+.prose .chapter h3 { margin-top: 0; }
+.chapter__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; margin: 0.55rem 0 0.9rem; font-family: var(--sans); font-size: 0.85rem; }
+.chapter__meta .card__link { margin-top: 0; }
