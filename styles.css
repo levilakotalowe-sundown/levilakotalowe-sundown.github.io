@@ -239,6 +239,7 @@ hr {
   font-style: italic;
   margin-bottom: 1.4rem;
 }
+.hero__role em { font-style: normal; }
 .hero__intro { font-size: 1.24rem; line-height: 1.6; color: var(--ink-soft); max-width: 40ch; }
 
 .portrait {
