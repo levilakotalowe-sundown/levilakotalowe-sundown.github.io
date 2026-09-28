@@ -239,7 +239,8 @@ hr {
   font-style: italic;
   margin-bottom: 1.4rem;
 }
-.hero__role em { font-style: normal; }
+/* opening line quoted from his research statement: roman, with his italics as he set them */
+.hero__role--roman { font-style: normal; }
 .hero__intro { font-size: 1.24rem; line-height: 1.6; color: var(--ink-soft); max-width: 40ch; }
 
 .portrait {
